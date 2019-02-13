@@ -1,0 +1,11 @@
+{
+  "http": {
+    "address": "0.0.0.0:8000",
+    "workers": {
+      "command": "bin/roadRunnerAgent",
+      "pool": {
+        "numWorkers": 4
+      }
+    }
+  }
+}
